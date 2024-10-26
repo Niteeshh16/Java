@@ -1,1 +1,6 @@
+Java is a object oriented, high level, secured programming language.
 
+----jvm, jre and jdk
+
+jvm is java virtual machine, it physically does not exists, it provoid converts the java code to byte code which can be exicuted.
+jre is a java run time environment provoids the some librabires which are required to develop java applications
