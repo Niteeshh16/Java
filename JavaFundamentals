@@ -39,4 +39,6 @@ Boolean Type:
     boolean: 1 bit (true or false), represents binary values
 
 Non primitive datatypes is which are not builtin datatypes that referes to the objects, stores the address in the stack and holds the actual objects are in the heap memory.
+This is created by the programmer. Strings, Arrays, arraylist, hashtable.
 
+visit Javatpoint to know more about the variables, datatypes, operatore and java keywords.
