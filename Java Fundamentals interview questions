@@ -1,1 +1,11 @@
+1. What is Java?
+-- java is object oriented, high level, secured, platform independent programming language, java code compiled to bytecode and and runs on JVM.
+
+2. what is variable in Java? How to declare that?
+-- variables are the container to store the values it it.  variables declared with the its suitable datatype. ex : int n = 20.
+
+3. Types of variable in Java?
+-- Local variable : Declared within the method and can be usable within that method.
+-- Instance variable : Declared in the class outside of the method.
+-- static variable : Declared using static variable, shared across all instance of the class.
 
