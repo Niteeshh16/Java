@@ -7,5 +7,36 @@ jre is a java run time environment provoids the some librabires which are requir
 and jdk is java development kit which includes all these jvm and jre, and provoid the debugger.
 
 ----Stack and heap memory
-stack holds variables, faster, have the fixed sized, follw LIFO management system.
+stack holds variables, faster, have the fixed sized, follw LIFO management system, stores primitive datatypes.
+public void methodA() {
+    int x = 10;  // x is stored in stack memory
+}
+
+Heap memory stores objects and the instance does not follow LIFO it follows shared memory pool, slower than the stack, memory managed by the garbage collector.
+
+---- Primitive and non primitive datatypes:
+
+primitive datatype is the builtin data types which is available in the java, that are not the objects and we can simple store the values for that.
+
+Integer Types:
+
+    byte: 1 byte (8-bit), range from -128 to 127.
+    short: 2 bytes (16-bit), range from -32,768 to 32,767.
+    int: 4 bytes (32-bit), commonly used integer type.
+    long: 8 bytes (64-bit), large integer values.
+
+Floating-Point Types:
+
+    float: 4 bytes (32-bit), single-precision floating-point.
+    double: 8 bytes (64-bit), double-precision floating-point.
+
+Character Type:
+
+    char: 2 bytes (16-bit), stores a single character or Unicode value.
+
+Boolean Type:
+
+    boolean: 1 bit (true or false), represents binary values
+
+Non primitive datatypes is which are not builtin datatypes that referes to the objects, stores the address in the stack and holds the actual objects are in the heap memory.
 
