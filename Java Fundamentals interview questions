@@ -9,3 +9,7 @@
 -- Instance variable : Declared in the class outside of the method.
 -- static variable : Declared using static variable, shared across all instance of the class.
 
+4. What is JIT Compiler?
+-- We can say JIT is a part of the JVM, JIT helps to compile the javabyte code to native machine code which increase the speed of the java application.
+
+
