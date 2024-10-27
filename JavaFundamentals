@@ -4,3 +4,8 @@ Java is a object oriented, high level, secured programming language.
 
 jvm is java virtual machine, it physically does not exists, it provoid converts the java code to byte code which can be exicuted.
 jre is a java run time environment provoids the some librabires which are required to develop java applications
+and jdk is java development kit which includes all these jvm and jre, and provoid the debugger.
+
+----Stack and heap memory
+stack holds variables, faster, have the fixed sized, follw LIFO management system.
+
