@@ -12,4 +12,10 @@
 4. What is JIT Compiler?
 -- We can say JIT is a part of the JVM, JIT helps to compile the javabyte code to native machine code which increase the speed of the java application.
 
+5. What is classloader?
+-- Classloader comes under the JVM, classloader loads the class on the demand
+  -- bootstrap classloader : loads a class core java class like java.util, java.lang its a top tire class.
+  -- extention classloader : loads the class from the extention that provoid libraries for extra features.
+  -- application classloader : loads the class from the classpath, loads from the external which is created by the programmer
+
 
